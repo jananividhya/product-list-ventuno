@@ -1,0 +1,43 @@
+.imageListWrapper {
+  display: flex;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imageContentWrapper {
+  text-align: left;
+  width: 195px;
+}
+
+.imageContent {
+  padding-bottom: 5px;
+}
+
+.title {
+  font-size: 0.83em;
+  color: #3a5161;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 0.2em;
+  font-weight: 700;
+  line-height: 1.189;
+}
+
+.carousel-root {
+  width: 100vw;
+}
+
+.imageWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 20px;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+.imageClass {
+  text-align: left;
+}
